@@ -10,4 +10,4 @@ The goal is to create functions for bump_perc, bump_chance, increment_for_win, a
 
 In order to test this algorithm, I’ve created a Monte Carlo simulation.  The simulated volunteers are given a randomly assigned “skill” level.  They are also given a starting “rank” which represents their score.  As the simulation progresses,  new volunteers join.  The goal is for their “rank” order to match their “skill” order as quickly as possible.
 
- In order to assess the fitness of the algorithm,  I am generating a score after each question is answered.  This score is a measure of the difference between the ranking order and the skill order.  The goal is to minimize the sum of these scores. 
+ In order to assess the fitness of the algorithm,  I am generating a score after each question is answered.  This score is a measure of the difference between the ranking order and the skill order.  That is to say, how many changes would it take to make the ranking order the same as the skill order.  The goal is to minimize the sum of these scores. 
