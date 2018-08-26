@@ -134,5 +134,5 @@ def run_simulation():
 
     #the goal is to minimize  x = run_simulation()[2]
 
-    if __name__ = "__main__":
-        print(run_simulation()[2])
+if __name__ = "__main__":
+    print(run_simulation()[2])
