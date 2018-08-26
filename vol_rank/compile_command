@@ -1,0 +1,1 @@
+gcc -shared -Wl,-soname,score_c -o score_c.so -fPIC score_c.c
